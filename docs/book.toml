@@ -1,0 +1,6 @@
+[book]
+authors = ["Frenzy"]
+language = "en"
+multilingual = false
+src = "src"
+title = "FlexScript - If its on, its on!"
