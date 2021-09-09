@@ -1,7 +1,8 @@
 # Proposal
 ### The FlexScript scripting language
 <br/>
-*** ICOM/CIIC - Introduction to Programming Languages ***
+
+***ICOM/CIIC - Introduction to Programming Languages***
 
 Authors: Angel Garcia, Ezequiel Rosario, Christopher Torres
 
