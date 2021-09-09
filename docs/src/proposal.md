@@ -104,6 +104,12 @@ Lastly, JavaParser will be used redundantly as a parser for our project. A parse
 
 ### Project Timeline
 
+<p align="center">
+    <a href="https://github.com/FrenzyExists" target="_blank">
+        <img src="Timeline.png" alt="Timeline" width="1020"/>
+    </a>
+</p>
+
 ### Impacts/Backwards Compatibility Issues
 
 ### Reference
