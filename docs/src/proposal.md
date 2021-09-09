@@ -16,83 +16,30 @@ Creating bash scripts whose syntax is somewhat loose or creating scripts with ma
 
 As such, the Flex Team aims to provide a faster and more flexible alternative to Python and similar scripting languages. We aim to make a scripting language with a hybrid of the Object-Oriented Paradigm and Functional Programming Paradigm, giving it the ease of use by keeping the language as small as possible (much like Lua), yet with flexibility and scalability. 
 
-### Scope
--
--
--
-
-### Language Features
+#### Language Features
 Most scripting languages on the UNIX side focus on the functional programming paradigm and lack any possibility to greatly expand as a language being just managing a bunch of files or simple control-flow in small simple scripts. By adding OOP features, a scripting language could easily be utilized for large scalable projects. To put it simple, FlexScript is made so you can fix your problems then and there, having the best of functional programming languages like bash, while also bringing OOP elements like PowerShell does.
 
 With the use of object-oriented programming (OOP), another feature that will greatly increase the ease of access for users is the creation of Drag and Drop (D&D) programming features. Implementing D&D features into FlexScript will allow both new and veteran programmers to create scripts, functions, sets, lists, and other coding elements in an easy and personalized fashion. 
 
 ### Example of a program in FS
 
-```
--- Hello World
+<p align="center">
+    <a href="https://github.com/FrenzyExists" target="_blank">
+        <img src="Hello_World.png" alt="Hello World" width="720"/>
+    </a>
+</p>
 
--- let this file be named "hello_world.fs"
--- Each file represents a class, much like in java, except that in FS its not necesary to specify such class
+<p align="center">
+    <a href="https://github.com/FrenzyExists" target="_blank">
+        <img src="FS_1.png" alt="FS_1" width="720"/>
+    </a>
+</p>
 
---[[
-This is a 
-multiline comment
-]]--
-
-source printf from std
-
-function main() -> () {
-        printf("Hello World"); 
-    }
-
--- This is a simple class of type i32, aka, integer
-class vehicle() <- i32:? {
-    function self -> () {
-        let price <- i32;
-        -- Another way...
-        let price_2 <- i32 = 2000;
-        }
-    
-    function get_price() -> i32 {
-        return self().price;
-    }
-    
-    function set_price(new_price <- i32) -> () {
-            self().price = new_price;
-        }
-}
-
--- In: FS, everything must be wrapped around a function or a class. 
-global fun_var = function() -> () {
-        printf("Yes, you can do this too");
-    }
-
--- By default, all functions are public, so if you want privacy
--- Just say it
-private function priv_fun() -> str {
-        printf("Other files won't be able to use me");
-
-        -- About loops
-        -- This example shows a loop that goes from
-        -- 1 to 10
-        for i in 0..10 do {
-                something;
-            }
-        
-        -- Loops can algo go "wack"
-        for (i, j, k) in three_d_arr do {
-            something;
-        }
-
-        -- Arrays
-        let arr <- array[@ <- str] = {"s", "r", "4"};
-        let k <- i32;
-        k = 0;
-        k = k + 1;
-        -- you cannot do k++ nor k+=1, get over it
-    }
-}
-```
+<p align="center">
+    <a href="https://github.com/FrenzyExists" target="_blank">
+        <img src="FS_2.png" alt="FS_2" width="720"/>
+    </a>
+</p>
 
 ### Implementation requirements and tools
 
@@ -114,3 +61,12 @@ Lastly, JavaParser will be used redundantly as a parser for our project. A parse
 
 ### Reference
 
+Klein, Gerwin. “JFlex - JFlex User’s Manual.” JFlex, www.jflex.de/manual.html. Accessed 2 Sept. 2021.
+
+</br>
+
+“Javaparser-Core 3.23.0 Javadoc (Com.Github.Javaparser).” Javaparser - Javadocs, www.javadoc.io/doc/com.github.javaparser/javaparser-core/latest/index.html. Accessed 2 Sept. 2021.
+
+</br>
+
+"D&D Beyond" https://www.dndbeyond.com. D&D beyond - an official digital toolset for dungeons & dragons (D&D) fifth edition (5e). Accessed 2 Sept. 2021.
