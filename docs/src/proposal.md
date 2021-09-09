@@ -1,9 +1,12 @@
 # Proposal
 ### The FlexScript scripting language
 <br/>
-*ICOM/CIIC - Introduction to Programming Languages*
+*** ICOM/CIIC - Introduction to Programming Languages ***
+
 Authors: Angel Garcia, Ezequiel Rosario, Christopher Torres
+
 Review Manager: Wilson Rivera
+
 Status: Pending
 
 September 9, 2021
@@ -14,7 +17,7 @@ This proposal introduces a better scripting language that focuses on scalability
 
 ### Motivation
 Our motivation for the design of FlexScript is creating scripts whose syntax is somewhat loose or while evading excessive dependencies like seen in many node.js projects. One could then argue the use of Python for scripting. While Python is a well-made and popular scripting language, it can be slow and variable types could become a nightmare to manage due to its duck-typing perk. Although it is true that one could switch to a language that is faster and more robust, such as Java, it is a very large language, if not extremely verbose, which makes it harder to master properly and a bit cumbersome to use for small programs.  
-a
+
 
 
 As such, the Flex Team aims to provide a faster and more flexible alternative to Python and similar scripting languages. We aim to make a scripting language with a hybrid of the Object-Oriented Paradigm and Functional Programming Paradigm, giving it ease of use by keeping the language as small as possible (much like Lua), yet with flexibility and scalability.
