@@ -31,11 +31,15 @@ With the use of object-oriented programming (OOP), another feature that will gre
 
 ### Example of a program in FS
 
+#### Example of a Hello World
+
 <p align="center">
     <a href="https://github.com/FrenzyExists" target="_blank">
         <img src="Hello_World.png" alt="Hello World" width="720"/>
     </a>
 </p>
+
+#### Examples of classes, functions, variables, etc.
 
 <p align="center">
     <a href="https://github.com/FrenzyExists" target="_blank">
@@ -67,7 +71,6 @@ Lastly, JavaParser will be used redundantly as a parser for our project. A parse
     </a>
 </p>
 
-### Impacts/Backwards Compatibility Issues
 
 ### Reference
 
