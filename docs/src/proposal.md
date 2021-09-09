@@ -80,4 +80,4 @@ Klein, Gerwin. “JFlex - JFlex User’s Manual.” JFlex, www.jflex.de/manual.h
 
 </br>
 
-"D&D Beyond" https://www.dndbeyond.com. D&D beyond - an official digital toolset for dungeons & dragons (D&D) fifth edition (5e). Accessed 2 Sept. 2021.
+"Oracle". Drag and Drop Data Transfer, https://docs.oracle.com/javase/8/docs/technotes/guides/dragndrop/index.html. Accessed 2 Sept. 2021. 
