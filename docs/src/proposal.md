@@ -9,25 +9,23 @@ Status: Pending
 September 9, 2021
 
 ### Introduction
-This proposal introduces a better scripting language that focuses on scalability and readability. Although we have languages such as LUA, python, bash, zsh and other scripting language, none was suited for large projects where dozens if not hundreds of scripts would be executed where scalability and maintenance could not end into a nightmare of a task for developers. Here we propose the creation of a language named "FlexScript" that tackles these issues using Java as a layer, similar to how C was used to create Python. 
+This proposal introduces a better scripting language that focuses on scalability and readability. Although we have languages such as LUA, python, bash, zsh and other scripting languages, none are suited for large projects where dozens, if not, hundreds of scripts would be executed. Where scalability and maintenance could become a nightmare of a task for developers. Here we propose the creation of a language named "FlexScript" that tackles these issues using Java as a layer, like how C was used to create Python.
+
 
 ### Motivation
-Creating bash scripts whose syntax is somewhat loose or creating scripts with many dependencies like the ones seen in many node.js project. One then may argue the use of Python for scripting. While Python is a well-made and a popular scripting language, it can be slow and variable types could become a nightmare to manage due to its duck-typing perk. Although it is true that one could switch for a language that is faster and more robust, such as Java, it is a very large language, which makes it harder to master properly. 
+Our motivation for the design of FlexScript is creating scripts whose syntax is somewhat loose or while evading excessive dependencies like seen in many node.js projects. One could then argue the use of Python for scripting. While Python is a well-made and popular scripting language, it can be slow and variable types could become a nightmare to manage due to its duck-typing perk. Although it is true that one could switch to a language that is faster and more robust, such as Java, it is a very large language, if not extremely verbose, which makes it harder to master properly and a bit cumbersome to use for small programs.  
+a
 
 
-As such, the Flex Team aims to provide a faster and more flexible alternative to Python and similar scripting languages. We aim to make a scripting language with a hybrid of the Object-Oriented Paradigm and Functional Programming Paradigm, giving it the ease of use by keeping the language as small as possible (much like Lua), yet with flexibility and scalability. 
+As such, the Flex Team aims to provide a faster and more flexible alternative to Python and similar scripting languages. We aim to make a scripting language with a hybrid of the Object-Oriented Paradigm and Functional Programming Paradigm, giving it ease of use by keeping the language as small as possible (much like Lua), yet with flexibility and scalability.
+
 
 #### Language Features
-Most scripting languages on the UNIX side focus on the functional programming paradigm and lack any possibility to greatly expand as a language being just managing a bunch of files or simple control-flow in small simple scripts. By adding OOP features, a scripting language could easily be utilized for large scalable projects. To put it simple, FlexScript is made so you can fix your problems then and there, having the best of functional programming languages like bash, while also bringing OOP elements like PowerShell does.
-
-With the use of object-oriented programming (OOP), another feature that will greatly increase the ease of access for users is the creation of Drag and Drop (D&D) programming features. Implementing D&D features into FlexScript will allow both new and veteran programmers to create scripts, functions, sets, lists, and other coding elements in an easy and personalized fashion. 
-
-### Language Features 
-
-Most scripting languages on the UNIX side focus on the functional programming paradigm and lack any possibility to greatly expand as a language being just managing a bunch of files or simple control-flow in small simple scripts. By adding OOP features, a scripting language could easily be utilized for large scalable projects. Simply put, FlexScript is made so you can fix your problems then and there, having the best of functional programming languages like bash, while also bringing OOP elements like PowerShell does. 
+Most scripting languages on the UNIX side focus on the functional programming paradigm and lack any possibility to greatly expand as a language, being just managing a bunch of files or simple control-flow in small simple scripts. By adding OOP features, a scripting language could easily be utilized for large scalable projects. Simply put, FlexScript is made so you can fix your problems then and there, having the best of functional programming languages like bash, while also bringing OOP elements like PowerShell does. 
 
 
-With the use of object-oriented programming (OOP), another feature that will greatly increase the ease of access for users is the creation of Drag and Drop (D&D) programming features. Implementing D&D features into  FlexScript will allow both new and veteran programmers to create scripts, functions, sets, lists, and other coding elements in an easy and personalized fashion. 
+With the use of object-oriented programming (OOP), another feature that will greatly increase the ease of access for users is the creation of Drag and Drop (D&D) programming features. Implementing D&D features into  FlexScript will allow both new and veteran programmers to create scripts, functions, sets, lists, and other coding elements in an easy and personalized fashion.
+
 
 ### Example of a program in FS
 
@@ -55,7 +53,7 @@ With the use of object-oriented programming (OOP), another feature that will gre
 
 ### Implementation requirements and tools
 
-FlexScript will be based on the Java programming language, using JFlex as our lexical analyzer generator to identify and read certain characters and make functions to ease the coding process. For the user, the lexer can be utilized to define and read expressions, recovering from errors faster, which allows the program to continue despite them, whenever possible.  
+FlexScript will be based on the Java programming language, using JFlex as our lexical analyzer generator to identify and read certain characters and make functions to ease the coding process. For the user, the lexer can be utilized to define and read expressions, recovering from errors faster, which allows the program to continue despite them, whenever possible.
 
 
 The AWT and Swing libraries will also be crucial for the creation of a D&D environment. UI design and mouse interaction are necessary for a proper interactive space.  
