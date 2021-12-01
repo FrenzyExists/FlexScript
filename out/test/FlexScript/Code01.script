@@ -1,0 +1,17 @@
+
+print("Hello There");
+
+print(3+3);
+
+print(4%83);
+
+print(4%83);
+
+if (4 == 9) {
+    print("ok");
+}
+
+
+for (int i = 0 ; i < 10 ; i++) {
+    print(i);
+}
